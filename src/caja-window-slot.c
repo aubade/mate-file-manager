@@ -187,7 +187,7 @@ caja_window_slot_init (CajaWindowSlot *slot)
     gtk_widget_show (content_box);
 
     frame = gtk_frame_new (NULL);
-    gtk_frame_set_shadow_type (GTK_FRAME (frame), GTK_SHADOW_ETCHED_IN);
+    gtk_frame_set_shadow_type (GTK_FRAME (frame), GTK_SHADOW_IN);
     gtk_box_pack_start (GTK_BOX (content_box), frame, FALSE, FALSE, 0);
     slot->extra_location_frame = frame;
 
